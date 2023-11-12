@@ -1,0 +1,17 @@
+/** npx prisma init*/
+create schema empty => setup database
+file: schema.prisma
+
+/** npx prisma migrate dev */
+Apply schema to your database => input: tableCreation
+Update database when schema change
+
+
+/** npx prisma studio */
+table database localhost
+
+--setup graphql     => npm i @nestjs/graphql @nestjs/apollo @apollo/server graphql graphql-upload@^14.0.0
+--setup jwt         => npm i  @nestjs/jwt bcrypt
+--setup validation  => npm i --save class-validator class-transformer
+--setup cookie      => npm i cookie-parser
+--setup config      => @nestjs/config
